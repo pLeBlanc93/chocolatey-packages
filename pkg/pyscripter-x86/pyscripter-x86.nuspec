@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>pyscripter-x86</id>
+    <title>pyscripter-x86 (Install)</title>
+    <version>2.6.0</version>
+    <authors>Kiriakos Vlahos</authors>
+    <owners>Paul357</owners>
+    <summary>PyScripter is an open-source Python Integrated Development Environment (IDE) created with the ambition to become competitive in functionality with commercial IDEs available for other languages.</summary>
+	<description>PyScripter is an open-source Python Integrated Development Environment (IDE) created with the ambition to become competitive in functionality with commercial IDEs available for other languages.</description>
+    <projectUrl>http://sourceforge.net/projects/pyscripter/</projectUrl>
+    <packageSourceUrl>https://github.com/pLeBlanc93/chocolatey-packages</packageSourceUrl>
+    <tags>pyscripter admin</tags>
+    <copyright></copyright>
+    <licenseUrl>http://opensource.org/licenses/mit-license.php</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>	
+    <iconUrl>http://cdn.rawgit.com/pLeBlanc93/chocolatey-packages/master/icons/pyscripter.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
